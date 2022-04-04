@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    font-size: 25px;
+}
+
+header {
+    display: flex;
+    color: black;
+    background-color: yellow;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    box-shadow: 0px 5px 10px rgba(255, 251, 0, 0.349);
+
+}
+
+h1 {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.514);
+    font-size: 50px;
+    margin: auto 0;
+}
+
+.container-projetos {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+}
+
+.projetos {
+    display: flex;
+    flex-shrink: 0;
+    margin: 40px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+a {
+    font-size: 30px;
+    padding: 25px;
+    width: 100%;
+    background-size: cover;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+#projeto1:hover {
+    background-image: url(../../main/assets/projeto-1.jpg);
+    color: transparent
+}
+
+
+#projeto2:hover {
+    background-image: url(../../main/assets/projeto-2.jpg);
+    color: transparent
+}
+
+#projeto3:hover {
+    background-image: url(../../main/assets/projeto-3.jpg);
+    color: transparent
+}
+
+#projeto4:hover {
+    background-image: url(../../main/assets/projeto-4.jpg);
+    color: transparent
+}
+
+#projeto5:hover {
+    background-image: url(../../main/assets/projeto-5.jpg);
+    color: transparent
+}
+
+#projeto6:hover {
+    background-image: url(../../main/assets/projeto-6.jpg);
+    color: transparent
+}
+
+#projeto7:hover {
+    background-image: url(../../main/assets/projeto-7.jpg);
+    color: transparent
+}
+
+#projeto8:hover {
+    background-image: url(../../main/assets/projeto-8.jpg);
+    color: transparent
+}
+
+#projeto9:hover {
+    background-image: url(../../main/assets/projeto-9.jpg);
+    color: transparent
+}
+
+#projeto10:hover {
+    background-image: url(../../main/assets/projeto-10.jpg);
+    color: transparent
+}

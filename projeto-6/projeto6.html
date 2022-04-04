@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="../main/assets/js.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculo IMC</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Praticando Javascript</h1>
+    </header>
+
+    <a href="../main/index.html"> <i class="fa-solid fa-arrow-left"></i></a>
+
+    <i class="fa-solid fa-bars"></i>
+    <div class="navbar">
+        <i class="fa-solid fa-xmark"></i>
+        <ul>
+            <h4>Regras:</h4>
+
+            <h4>Homens</h4>
+            <li>Até 20.7 = Abaixo do peso</li>
+            <li>Até 26.4 = Peso normal</li>
+            <li>Até 27.8 = Um pouco acima do peso</li>
+            <li>Até 31.1 = Quase obeso</li>
+            <li>Acima de 31.1 = Obeso</li>
+
+            <h4>Mulheres</h4>
+            <li>Até 19.7 = Abaixo do peso</li>
+            <li>Até 25.8 = Peso normal</li>
+            <li>Até 27.8 = Um pouco acima do peso</li>
+            <li>Até 32.3 = Quase obesa</li>
+            <li>Acima de 32.3 = Obesa</li>
+
+
+        </ul>
+    </div>
+    <div class="container">
+        <div class="projeto">
+            <h2>Veja seu IMC</h2>
+            <form>
+                <input type="number" name="peso" id="peso" class="caixa" placeholder="Peso" /> <br />
+                <input type="number" name="alt" id="alt" class="caixa" placeholder="Altura" /> <br />
+
+                <select name="sel" id="sel" class="caixa">
+                    <option value="0"> s e x o</option>
+                    <option value="1">MASCULINO</option>
+                    <option value="2">FEMININO</option>
+                </select>
+                <br />
+                <input type="text" id="imc" class="caixa" placeholder="IMC" readonly /><br />
+                <input type="text" id="conc" class="caixa" placeholder="Conceito" readonly /> <br />
+                <input id="btn" type="button" value="Checar" onclick="calc()" />
+            </form>
+        </div>
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2b239a5a65.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
