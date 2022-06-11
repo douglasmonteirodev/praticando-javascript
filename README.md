@@ -1,4 +1,4 @@
-# JSON PLACEHOLDER ALBUM
+# PRATICANDO JAVASCRIPT
 
 ## Projeto usando react-router-dom e axios
 
