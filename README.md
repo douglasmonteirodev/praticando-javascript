@@ -1,6 +1,6 @@
 # PRATICANDO JAVASCRIPT
 
-## Projeto usando react-router-dom e axios
+## Projeto usando javascript
 
 ## GitPage: https://douglasmonteirodev.github.io/praticando-javascript/main
 
