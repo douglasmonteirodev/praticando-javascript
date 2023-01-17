@@ -1,16 +1,13 @@
 # PRATICANDO JAVASCRIPT
 
+[![Blog](https://img.shields.io/website?label=deploy&style=for-the-badge&url=https://douglasmonteirodev.github.io/praticando-javascript/main)](https://douglasmonteirodev.github.io/praticando-javascript/main)
+
 <p align="center">
-      <img src="assets/preview/home_preview.png">
+  <img src="assets/preview/home_preview.png">
 </p>
 
-## GitPage: https://douglasmonteirodev.github.io/praticando-javascript/main
+## Objetivo:
 
-## Informações
+### Foi juntar todos os mini projeto que usei para aprender javascript no começo da minha caminhada.
 
-### Aqui decidi juntar todos os mini projetos que fiz durante o aprendizado de javascript e lógica de programação.
-
-# Douglas Monteiro ❤😎
-
-
-
+## <i>Douglas Monteiro</i> 😁🔥🚀
